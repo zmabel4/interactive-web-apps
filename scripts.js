@@ -23,3 +23,79 @@ console.log(date);
  //-to impress investores
 
  console.log("security scan starting");
+
+ // Wait for the DOM to load before accessing elements
+document.addEventListener("DOMContentLoaded", function() {
+
+    // nwabisa.js
+    let firstname = "Nwabisa";
+    let surname = "Gabe";
+    let role = "CEO";
+
+    // Create string with the virables 
+    let display = '${firstname} ${surname} (${role})';
+
+    // Set Nwabisa into a string 
+    document.querySelector("#nwabisa").innerText = display;
+});
+
+
+// Wait for the DOM to load elements
+document.addEventListener("DOMContentLoaded", function() {
+    // Johannes.js
+    let firstname = "Johannes";
+    let surname = "Potgieter";
+    let role = "Intern";
+
+    // Create a string 
+    let display = '${firstname} ${surname} (${role})';
+
+    // Set Johanne a string
+    document.querySelector("#johannes").innerText = display;
+});
+
+// Wait for the DOM to load before accessing the elements
+document.addEventListener("DOMContentLoaded", function () {
+    // Alexj.s
+    let firstname = "Alex";
+    let surname = "Naidoo";
+    let role = "Head of Marketing";
+
+    // Create a string
+    let display = '${firstname} ${surname} (${role})';
+
+    // Set Alex a string
+    document.querySelector("#alex").innerText = display;
+
+
+});
+
+
+// Wait for the DOM to load before accessing the elements 
+document.addEventListener("DOMContentLoaded", function() {
+    // Reference the variables and their role
+    console.log('Roles:', nwabisa.role);
+
+})
+
+
+
+
+// Wait for the DOM to load before accessing the elements 
+document.addEventListener("DOMContentLoaded", function() {
+    // Reference the variables and their role
+    console.log('Roles:', johannes.role);
+
+})
+
+
+
+// Wait for the DOM to load before accessing the elements 
+document.addEventListener("DOMContentLoaded", function() {
+    // Reference the variables and their role
+    console.log('Roles:', alex.role);
+
+})
+
+
+
